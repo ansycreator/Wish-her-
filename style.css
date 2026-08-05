@@ -57,21 +57,35 @@ body{
     line-height:1.6;
 }
 /* 🎵 Music Button */
+/* 🎵 Professional Music Button */
 #musicBtn{
-    margin-top:25px;
-    padding:12px 25px;
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    
+    width:55px;
+    height:55px;
+    
     border:none;
-    border-radius:30px;
+    border-radius:50%;
+    
     background:#ff1493;
     color:white;
-    font-size:18px;
-    font-weight:bold;
+    
+    font-size:24px;
     cursor:pointer;
-    box-shadow:0 0 15px rgba(255,20,147,0.6);
-    transition:0.3s;
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    box-shadow:0 4px 15px rgba(255,20,147,0.5);
+    
+    z-index:9999;
+    
+    transition:transform 0.3s ease;
 }
 
 #musicBtn:hover{
-    transform:scale(1.08);
-    box-shadow:0 0 25px rgba(255,20,147,0.8);
+    transform:scale(1.1);
 }
