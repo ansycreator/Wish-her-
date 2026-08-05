@@ -67,3 +67,26 @@ musicBtn.addEventListener("click", function () {
         musicBtn.textContent = "🎵";
     }
 });
+// 🎊 Soft Celebration Confetti
+
+const confettiContainer = document.querySelector(".celebration");
+
+for(let i = 0; i < 18; i++){
+
+    const confetti = document.createElement("span");
+
+    confetti.textContent = "•";
+
+    confetti.style.left = Math.random() * 100 + "%";
+    confetti.style.top = Math.random() * 100 + "%";
+
+    confetti.style.fontSize = (Math.random() * 8 + 5) + "px";
+
+    confetti.style.animationDuration =
+        (Math.random() * 4 + 5) + "s";
+
+    confetti.style.animationDelay =
+        Math.random() * 5 + "s";
+
+    confettiContainer.appendChild(confetti);
+}
