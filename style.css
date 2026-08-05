@@ -192,3 +192,10 @@ body{
         transform:scale(1.02);
     }
 }
+/* 🌸 Aesthetic Birthday Heading */
+.title{
+    color:#8E4585 !important;
+    text-shadow:
+        0 0 8px rgba(142,69,133,0.3),
+        0 0 18px rgba(142,69,133,0.15);
+}
