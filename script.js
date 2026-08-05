@@ -57,7 +57,7 @@ musicBtn.addEventListener("click", function () {
     if (music.paused) {
         music.play()
             .then(() => {
-                musicBtn.textContent = "⏸️ Pause Music";
+                musicBtn.textContent = "🎵";
             })
             .catch((error) => {
                 console.log("Music error:", error);
