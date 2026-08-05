@@ -57,13 +57,13 @@ musicBtn.addEventListener("click", function () {
     if (music.paused) {
         music.play()
             .then(() => {
-                musicBtn.textContent = "🎵";
+                musicBtn.textContent = "⏸️";
             })
             .catch((error) => {
                 console.log("Music error:", error);
             });
     } else {
         music.pause();
-        musicBtn.textContent = "🎵 Play Music";
+        musicBtn.textContent = "🎵";
     }
 });
