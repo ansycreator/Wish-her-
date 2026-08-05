@@ -23,7 +23,7 @@ const timer = setInterval(() => {
 }, 1000);
 
 const message =
-
+`Happy Birthday, Sohana! 🎂❤️
 May Allah bless you with happiness, peace, good health, success, and countless beautiful moments.
 
 May your smile always shine brightly, and may every good dream in your heart come true.
