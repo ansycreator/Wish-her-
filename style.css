@@ -91,3 +91,10 @@ body{
 #musicBtn:hover{
     transform:scale(1.1);
 }
+/* 🟣 FORCE PURPLE BIRTHDAY TEXT */
+
+.title,
+#typing {
+    color: #8000ff !important;
+    text-shadow: 2px 2px 10px rgba(128, 0, 255, 0.35) !important;
+}
