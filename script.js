@@ -50,3 +50,16 @@ surpriseBtn.addEventListener("click", () => {
     surpriseBtn.innerHTML = "🎉 Enjoy Your Day 🎉";
 
 });
+// 🎵 Birthday Music
+const music = document.getElementById("birthdayMusic");
+const musicBtn = document.getElementById("musicBtn");
+
+musicBtn.addEventListener("click", function () {
+    if (music.paused) {
+        music.play();
+        musicBtn.textContent = "⏸️ Pause Music";
+    } else {
+        music.pause();
+        musicBtn.textContent = "🎵 Play Music";
+    }
+});
