@@ -56,8 +56,13 @@ const musicBtn = document.getElementById("musicBtn");
 
 musicBtn.addEventListener("click", function () {
     if (music.paused) {
-        music.play();
-        musicBtn.textContent = "⏸️ Pause Music";
+        music.play()
+            .then(() => {
+                musicBtn.textContent = "⏸️ Pause Music";
+            })
+            .catch((error) => {
+                console.log("Music error:", error);
+            });
     } else {
         music.pause();
         musicBtn.textContent = "🎵 Play Music";
