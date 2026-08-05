@@ -60,29 +60,30 @@ body{
 /* 🎵 Professional Music Button */
 #musicBtn{
     position:fixed;
-    right:20px;
-    bottom:20px;
-    
-    width:55px;
-    height:55px;
-    
+    right:18px;
+    bottom:18px;
+
+    width:52px;
+    height:52px;
+
     border:none;
     border-radius:50%;
-    
+
     background:#ff1493;
     color:white;
-    
-    font-size:24px;
-    cursor:pointer;
-    
+
+    font-size:22px;
+    font-weight:bold;
+
     display:flex;
     justify-content:center;
     align-items:center;
-    
-    box-shadow:0 4px 15px rgba(255,20,147,0.5);
-    
+
+    cursor:pointer;
     z-index:9999;
-    
+
+    box-shadow:0 4px 15px rgba(255,20,147,0.45);
+
     transition:transform 0.3s ease;
 }
 
