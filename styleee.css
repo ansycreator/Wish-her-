@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#ff9ec4,#ffd6e8,#fff2b2);
+    overflow:hidden;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hidden{
+    display:none;
+}
+
+#countdown{
+    position:absolute;
+    width:100%;
+}
+
+#count{
+    font-size:120px;
+    color:#ffffff;
+    text-shadow:0 0 20px #ff0080;
+    animation:zoom 1s infinite;
+}
+
+@keyframes zoom{
+    0%{transform:scale(0.7);}
+    50%{transform:scale(1.2);}
+    100%{transform:scale(1);}
+}
+
+#birthday{
+    max-width:90%;
+}
+
+.title{
+    color:#ffffff;
+    font-size:40px;
+    margin-bottom:30px;
+    text-shadow:2px 2px 12px #ff1493;
+}
+#typing{
+    margin-top:30px;
+    font-size:22px;
+    color:#ffffff;
+    font-weight:bold;
+    min-height:120px;
+    text-shadow:1px 1px 8px #ff1493;
+    line-height:1.6;
+}
