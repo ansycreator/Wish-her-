@@ -42,18 +42,19 @@ body{
 }
 
 .title{
-    color:#ffffff;
+    color:#8000ff;
     font-size:40px;
     margin-bottom:30px;
-    text-shadow:2px 2px 12px #ff1493;
+    text-shadow:2px 2px 12px #d000ff;
 }
+
 #typing{
     margin-top:30px;
     font-size:22px;
-    color:#ffffff;
+    color:#8000ff;
     font-weight:bold;
     min-height:120px;
-    text-shadow:1px 1px 8px #ff1493;
+    text-shadow:1px 1px 8px #d000ff;
     line-height:1.6;
 }
 /* 🎵 Music Button */
